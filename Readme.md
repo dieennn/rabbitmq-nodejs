@@ -8,7 +8,7 @@
 
 ### Create todo
 
-will listening on channel `req.create.todo`
+will listening on channel `req.create.todo` after it will make publish channel `todo.created` with message same in save db
 
 ### Get todo
 
@@ -16,4 +16,4 @@ open url e.g `http://localhost:3000/`
 
 ### Delete todo
 
-will listening on channel `req.delete.todo`
+will listening on channel `req.delete.todo` after it will make publish channel `todo.deleted` with message detail deleted item.
