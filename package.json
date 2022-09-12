@@ -28,7 +28,6 @@
     "amqplib": "^0.10.3",
     "crypto-js": "^4.1.1",
     "dotenv": "^16.0.2",
-    "express": "^4.18.1",
-    "lowdb-cjs": "^3.0.1"
+    "express": "^4.18.1"
   }
 }
